@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="lvds_ddr_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lvds_ddr_tb" />
+            <top_module name="util_pkg" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="181.543 ns"></ZoomStartTime>
+      <ZoomEndTime time="260.894 ns"></ZoomEndTime>
+      <Cursor1Time time="194.768 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="151"></NameColumnWidth>
+      <ValueColumnWidth column_width="92"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject type="logic" fp_name="/lvds_ddr_tb/dut/clk_250_i">
+      <obj_property name="ElementShortName">clk_250_i</obj_property>
+      <obj_property name="ObjectShortName">clk_250_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lvds_ddr_tb/dut/data_I_i">
+      <obj_property name="ElementShortName">data_I_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_I_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lvds_ddr_tb/dut/data_Q_i">
+      <obj_property name="ElementShortName">data_Q_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_Q_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lvds_ddr_tb/dut/rst_n_i">
+      <obj_property name="ElementShortName">rst_n_i</obj_property>
+      <obj_property name="ObjectShortName">rst_n_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lvds_ddr_tb/dut/clk_p_o">
+      <obj_property name="ElementShortName">clk_p_o</obj_property>
+      <obj_property name="ObjectShortName">clk_p_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lvds_ddr_tb/dut/D_p_o">
+      <obj_property name="ElementShortName">D_p_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D_p_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lvds_ddr_tb/dut/FRAME_p_o">
+      <obj_property name="ElementShortName">FRAME_p_o</obj_property>
+      <obj_property name="ObjectShortName">FRAME_p_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lvds_ddr_tb/dut/clk_n_o">
+      <obj_property name="ElementShortName">clk_n_o</obj_property>
+      <obj_property name="ObjectShortName">clk_n_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/lvds_ddr_tb/dut/D_n_o">
+      <obj_property name="ElementShortName">D_n_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D_n_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/lvds_ddr_tb/dut/FRAME_n_o">
+      <obj_property name="ElementShortName">FRAME_n_o</obj_property>
+      <obj_property name="ObjectShortName">FRAME_n_o</obj_property>
+   </wvobject>
+</wave_config>
